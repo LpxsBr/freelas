@@ -3,8 +3,8 @@
 <center>
     <img src="./assets/elefante-bebo.jpeg"
     alt="elefante bebo php freela"
-    width=100
-    height=100/>
+    width=250
+    height=250/>
 </center>
 
 ---
