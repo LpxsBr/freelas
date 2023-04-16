@@ -5,7 +5,7 @@
     alt="elefante bebo php freela"
     width=250
     height=250/>
-</center>
+
 
 ---
 
@@ -15,20 +15,24 @@
 
 Consistia em "printar" uma cruz no terminal
 
-<img src="./assets/screenshotX.png"
-    alt="cross"
-    width=250
-    height=250/>
+<center>
+    <img src="./assets/screenshotX.png"
+        alt="cross"
+        width=250
+        height=250/>
+</center>
+
 
 #### X
 
 Consistia em "printar" um X no terminal
 
-<img src="./assets/screenshotCross.png"
-    alt="x"
-    width=250
-    height=250/>
-
+<center>
+    <img src="./assets/screenshotCross.png"
+        alt="x"
+        width=250
+        height=250/>
+</center>
 ---
 ## To run
 
