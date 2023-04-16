@@ -20,11 +20,11 @@ class ShapeHandler{
         $this->x = new X();
     }
 
-    public function makeCross(){
-        return $this->cross->generate();
+    public function makeCross($breakline = PHP_EOL){
+        return $this->cross->generate($breakline);
     }
 
-    public function makeX(){
-        return $this->x->generate();
+    public function makeX($breakline = PHP_EOL){
+        return $this->x->generate($breakline);
     }
 }
