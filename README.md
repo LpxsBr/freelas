@@ -33,7 +33,9 @@ Consistia em "printar" um X no terminal
         width=250
         height=250/>
 </center>
+
 ---
+
 ## To run
 
 Requisitos:
