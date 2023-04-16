@@ -36,7 +36,7 @@ Consistia em "printar" um X no terminal
 
 ---
 
-Requisitos:
+## Requisitos:
 - Ter o PHP instalado.
 
 ---
