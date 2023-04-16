@@ -1,0 +1,140 @@
+*{
+    font-family: Helvetica;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: #f1f1f1;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    height: 80px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    height: 170px;
+}
+
+main{
+    height: calc(100vh - 250px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shapes{
+    margin-top: 10px;
+    border: 5px solid aquamarine;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+}
+
+.cross{
+    display: none;
+}
+
+
+.x{
+    display: none;
+}
+
+.controll{
+    display: none;
+    gap: 20px;
+    animation: show 2s linear;
+}
+
+.controll button{
+    background-color: aquamarine;
+    border-radius: 8px;
+    border: 1px solid aqua;
+    height: 30px;
+    width: 80px;
+}
+
+.controll button:hover{
+    transform: scale(1.2);
+}
+
+.textClosed{
+    display: none;
+}
+
+a{
+    width: 100%;
+    background-color: aquamarine;
+}
+a:hover{
+    border-bottom: 2px solid black;      
+}
+
+
+
+.links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.links ul a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #0f0f0f;
+    font-weight: 600;
+}
+
+
+.bar{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 2px;
+    height: 20px;
+    width: 100%;
+    background-color: #0f0f0f;
+}
+
+.charge{
+    background-color: aquamarine;
+    height: calc(20px - 4px);
+    width: calc(100% - 4px);
+    animation: bar 3s linear;
+}
+
+@keyframes bar {
+    from{
+        width: calc(1% - 4px);
+    }
+    to{
+        width: calc(100% - 4px);
+    }
+}
+
+@keyframes show {
+    from{
+        opacity: 0;
+    }
+    to{
+        
+        opacity: 1;
+    }
+}

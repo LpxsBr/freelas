@@ -14,9 +14,13 @@ if(isset($argv[1])){
         case 'cross':
             $command->makeCross();
             break;
-            
+
         case 'x':
             $command->makeX();
+            break;
+
+        case 'browser':
+            exec("php -S localhost:1234");
             break;
         
         default:
