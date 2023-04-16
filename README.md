@@ -11,40 +11,57 @@
 
 ## Tasks
 
----
-
-### Cruz
+#### Cruz
 
 Consistia em "printar" uma cruz no terminal
 
-Resultado:
+<img src="./assets/screenshotX.png"
+    alt="cross"
+    width=250
+    height=250/>
 
-![Cross](./assets/ScreenshotCross.png)
-
-### X
+#### X
 
 Consistia em "printar" um X no terminal
 
-Resultado:
-
-![x](./assets/ScreenshotX.png)
+<img src="./assets/screenshotCross.png"
+    alt="x"
+    width=250
+    height=250/>
 
 ---
 ## To run
 
-Requisito: Ter o PHP instalado.
+Requisitos:
+- Ter o PHP instalado.
 
-Steps:
+### Passos:
+
+#### No terminal:
 
 ``` git clone  https://github.com/LpxsBr/freelas.git ```
 
-Cruz
+``` cd freelas ```
 
-``` php cross.php ```
+obs: para rodar, foi criado um prefixo "shape"
 
-X
+para printar a cruz no terminal
 
-``` php x.php ```
+``` php shape cross ```
+
+para printar x no terminal
+
+``` php shape x ```
+
+#### No browser
+
+use o comando:
+
+``` php shape browser ```
+
+depois abra no browser
+
+[localhost:1234](http://localhost:1234)
 
 ---
 
