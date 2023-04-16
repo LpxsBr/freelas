@@ -4,7 +4,6 @@ require "./command/index.php";
 
 use Command\ShapeHandler;
 
-$msg = 'opa';
 $missing = "\n some arguments is missing \n";
 
 $command = new ShapeHandler;
@@ -15,12 +14,12 @@ if(isset($argv[1])){
         case 'cross':
             $command->makeCross();
             break;
+            
         case 'x':
             $command->makeX();
             break;
         
         default:
-            # code...
             break;
     }
 

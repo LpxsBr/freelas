@@ -2,10 +2,6 @@
 
 namespace App\Classes;
 
-/** 
- * Author: Anselmo Lopes (LpxsBr) 
-*/
-
 class Cross
 {
     protected $height;
@@ -15,29 +11,23 @@ class Cross
         /**
          * @param height 
          */
-        // setter do height
         $this->height = $height;
     }
 
     public function generate()
     {
         // definingo as $height linhas que serão usadas
-        // getter do height
         $height = $this->height;
         
-        // poka yoke pra evitar erro das alturas pares (n printa a linha vertical)
         /**
+         * poka yoke pra evitar erro das alturas pares (n printa a linha vertical) -> torna a largura impar
          * poka yoke, na engenharia, é a "ferramenta anti erro", pra evitar certas coisas
          * pode ser considerado aqui como RTA (Recursos Técnico ALternativo), ou só gambiarra msm kkkkkkkkkkkkkkkkkkkkk
          */
-        if($height % 2 == 0){
-            $height++;
-        }
+        if($height % 2 == 0) $height++;
 
         // processo de "printagem"
         for($i=0; $i < $height; $i++) {
-
-            // em cada iteração de linha ele faz um teste
 
             /** 
              * se $i == 1 (segunda linha),
@@ -68,7 +58,6 @@ class Cross
         }
     }
 }
-
 
 class X
 {
@@ -101,7 +90,6 @@ class X
                 }
             }
 
-            
             // triagulo superior do centro direito
             for($count = 3;  $count > $i; $count--){
                 echo " ";
@@ -117,7 +105,6 @@ class X
             }
             echo "\n";
         }
-
 
         // parte inferior do X (4 triangulos)
         for($i=2; $i >= 0; $i--) {
