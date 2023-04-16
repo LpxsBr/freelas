@@ -16,7 +16,7 @@
 Consistia em "printar" uma cruz no terminal
 
 <center>
-    <img src="./assets/screenshotX.png"
+    <img src="./assets/ScreenshotX.png"
         alt="cross"
         width=250
         height=250/>
@@ -28,7 +28,7 @@ Consistia em "printar" uma cruz no terminal
 Consistia em "printar" um X no terminal
 
 <center>
-    <img src="./assets/screenshotCross.png"
+    <img src="./assets/ScreenshotCross.png"
         alt="x"
         width=250
         height=250/>
